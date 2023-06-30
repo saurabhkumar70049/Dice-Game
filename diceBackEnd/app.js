@@ -8,7 +8,7 @@ import playerRoute from './routes/player.js';
 
 
 const PORT = 8080;
-const mongodbURL = 'mongodb://localhost:27017/Dice';
+const mongodbURL = 'mongodb://localhost:27017/Dice'; // this  is mongodbcompass link
 const app = express();
 
 app.use(cors());
